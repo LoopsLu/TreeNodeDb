@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using TreeNodeDb.Models;
+using TreeNodeDb.Repository;
 
 namespace TreeNodeDb
 {
@@ -34,6 +35,8 @@ namespace TreeNodeDb
 
             var connectionStr = Configuration["ConnectionStrings:Local"];
             services.AddDbContext<TreeNodeDbContext>(options => options.UseSqlServer(connectionStr));
+
+            services.AddScoped<IRepositoryNode, RepositoryNode>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
