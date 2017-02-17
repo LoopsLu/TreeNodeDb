@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D7C1CF2B-2B81-4262-B880-532CCBF62289}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F1B9EE66-4861-4944-8902-55E111BA0DC5}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TreeNodeDb", "src\TreeNodeDb\TreeNodeDb.xproj", "{98604B94-A62E-434E-BBC2-B19A43DD8126}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98604B94-A62E-434E-BBC2-B19A43DD8126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98604B94-A62E-434E-BBC2-B19A43DD8126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98604B94-A62E-434E-BBC2-B19A43DD8126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98604B94-A62E-434E-BBC2-B19A43DD8126}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98604B94-A62E-434E-BBC2-B19A43DD8126} = {D7C1CF2B-2B81-4262-B880-532CCBF62289}
+	EndGlobalSection
+EndGlobal
